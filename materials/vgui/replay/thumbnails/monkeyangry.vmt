@@ -1,0 +1,20 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/monkeyangry"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	
+	"startframe" "0"
+	"endframe" "22"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+		"animatedTextureVar" "$basetexture"
+		"animatedTextureFrameNumVar" "$frame"
+		"animatedTextureFrameRate" "20" 
+		}
+	}
+} 
+

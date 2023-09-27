@@ -1,0 +1,20 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/class/heavy"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	
+	"startframe" "0"
+	"endframe" "7"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+		"animatedTextureVar" "$basetexture"
+		"animatedTextureFrameNumVar" "$frame"
+		"animatedTextureFrameRate" "12" 
+		}
+	}
+} 
+
