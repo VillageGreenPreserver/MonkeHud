@@ -43,3 +43,27 @@ event HudHealthDyingPulseStop
 }
 
 //===========================================
+event HudMedicCharged
+{
+	Animate	SPEEN 	alpha		"255"		Linear 0.0 0.0
+
+	Animate	chimp 	fgcolor		"tandarker"		Linear 0.0 0.2
+	Animate	chimp 	fgcolor		"tanlight"		Linear 0.2 0.2
+
+	RunEvent HudMedicChargedLoop 0.4
+}
+
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+
+	Animate	SPEEN 	alpha		"0"		Linear 0.0 0.0
+	Animate	chimp 	fgcolor		"tanlight"		Linear 0.0 0.0
+}

@@ -1,11 +1,9 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui/replay/thumbnails/class/sniper"
+	"$baseTexture" "vgui/replay/thumbnails/class/spy_blue"
 	"$vertexcolor" 1
 	"$vertexalpha" 1
 	
-	"startframe" "0"
-	"endframe" "7"
 
 	"Proxies"
 	{

@@ -1,0 +1,33 @@
+"Refract"
+{
+ 	"$model" 1
+ 	"$refractamount" ".2"
+ 	"$bluramount" "1"
+	"$scale" "[1 1]"
+ 	"$normalmap" "vgui/replay/thumbnails/class/spy_normal"
+	"$bumpframe" "0"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$forcerefract" 1
+	"$nofog" "1"
+	"$refracttinttexture" "vgui/replay/thumbnails/class/spy_red_tint"
+	"$nocull" "1"	
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$normalmap"
+			"animatedTextureFrameNumVar" "$bumpframe"
+			"animatedTextureFrameRate" "12" 
+		}
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$refracttinttexture"
+			"animatedTextureFrameNumVar" "$refracttinttextureframe"
+			"animatedTextureFrameRate" "12" 
+		}
+	}
+}
+
+

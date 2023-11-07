@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui/replay/thumbnails/class/sniper"
+	"$baseTexture" "vgui/replay/thumbnails/class/heavy"
 	"$vertexcolor" 1
 	"$vertexalpha" 1
 	

@@ -3229,6 +3229,30 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"damagenumber"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"22"
+				"weight"	"500"
+				"additive"	"1"
+				"blur"	"1"
+				"antialias" 	"1"
+			}
+		}			
+		"damagenumberbig"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"26"
+				"weight"	"500"
+				"additive"	"1"
+				"blur"	"1"
+				"antialias" "1"
+			}
+		}
 	}
 
 	//

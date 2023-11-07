@@ -1,11 +1,8 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui/replay/thumbnails/class/sniper"
+	"$baseTexture" "vgui/replay/thumbnails/monkeyspin"
 	"$vertexcolor" 1
 	"$vertexalpha" 1
-	
-	"startframe" "0"
-	"endframe" "7"
 
 	"Proxies"
 	{
@@ -13,7 +10,7 @@
 		{
 		"animatedTextureVar" "$basetexture"
 		"animatedTextureFrameNumVar" "$frame"
-		"animatedTextureFrameRate" "12" 
+		"animatedTextureFrameRate" "16" 
 		}
 	}
 } 
